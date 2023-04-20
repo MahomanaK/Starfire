@@ -1,20 +1,43 @@
-img {
-    width: 400px;
-    height: 400px;
-}
-
 * {
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: grey;
-}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+} 
 
 .container {
 padding-left: 200px;
 padding-right: 200px;
-
 }
 
 .heading {
-    background-color: yellow;
+    padding-right: 500px;
+}
+
+.header {
+  padding: 20px;
+  text-align: end;
+  background: #bc1a89;
+  color: white;
+  font-size: 20px;
+}
+
+footer{
+  background: #bc1a89; 
+  padding: 20px;  
+}
+
+.footer-icon {
+  width: 1em;
+}
+
+/* .footer-link {
+  position: relative;
+} */
+
+.footer-link::after {
+  content: attr(data-name);
+  position: absolute;
+  top: -20px;
+  left: 0;
+  z-index: 20;
+  background-color: antiquewhite;
 }
