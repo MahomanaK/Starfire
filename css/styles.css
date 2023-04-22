@@ -18,20 +18,22 @@ padding-right: 200px;
   background: #bc1a89;
   color: white;
   font-size: 20px;
+  position: fixed;
+  width: 98%;
+  top: 0;
 }
 
 footer{
   background: #bc1a89; 
   padding: 20px;  
+  position: fixed;
+  width: 98%;
+  top: 89%;
 }
 
 .footer-icon {
   width: 1em;
 }
-
-/* .footer-link {
-  position: relative;
-} */
 
 .footer-link::after {
   content: attr(data-name);
@@ -41,3 +43,13 @@ footer{
   z-index: 20;
   background-color: antiquewhite;
 }
+.btn {
+  background-color: rgb(74, 222, 10); 
+  border-radius: 1em;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
